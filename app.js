@@ -73,7 +73,7 @@ async function skrapAnnonser(adresser) {
 }
 
 function lagArtikkelHTML (artikler) {
-    console.log("✍ 📰  lager HTML...")
+    console.log("✍ 📰 lager HTML...")
     
     let HTML = ""
     for (const artikkel of artikler) {
@@ -91,7 +91,7 @@ function lagArtikkelHTML (artikler) {
 }
 
 function lagAnnonseHTML (annonser) {
-  console.log("✍ 💰  lager HTML...")
+  console.log("✍ 💰 lager HTML...")
   
   let HTML = "<ul> \n"
   for (const annonse of annonser) {
